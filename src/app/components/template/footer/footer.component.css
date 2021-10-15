@@ -1,0 +1,10 @@
+.footer-toolbar{
+    background-color: darkgrey;
+    justify-content: right;
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+}
+span{
+    font-family: "Helvetica Neue";
+}
