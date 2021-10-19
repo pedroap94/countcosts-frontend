@@ -12,7 +12,9 @@ import { NavComponent } from './components/template/nav/nav.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
-
+import { HomeReadComponent } from './components/views/home/home-read/home-read.component';
+import {HttpClientModule} from "@angular/common/http";
+import {MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
@@ -22,6 +24,7 @@ import {MatIconModule} from '@angular/material/icon';
     FooterComponent,
     HomeComponent,
     NavComponent,
+    HomeReadComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,9 @@ import {MatIconModule} from '@angular/material/icon';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
